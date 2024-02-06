@@ -1,0 +1,89 @@
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+#formAdd {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+th {
+    display: flex;
+    align-items: center;
+    height: 40px;
+    /* border-radius: 5px; */
+    border-collapse: collapse;
+
+
+}
+
+#trHeader {
+    background-color: rgb(78, 109, 247);
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    min-width: 1012px;
+
+
+}
+
+tbody {
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+}
+
+.table tr:nth-child(odd) {
+    background-color: white;
+    box-shadow: 5px, 5px, 5px, rgb(78, 109, 247);
+
+}
+.table tr:nth-child(even) {
+    background-color: rgb(221, 221, 221);
+}
+.table {
+    display: flex;
+    justify-content: center;
+    border-collapse: collapse;
+
+}
+.cell {
+    text-align: center;
+    width: 200px;
+    height: 50px;
+
+}
+#error {
+    text-align: center;
+    color: red;
+}
+.button {
+    width: 100px;
+    cursor: pointer;
+    background-color: rgb(138, 193, 255);
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px rgb(88, 132, 253);
+    border: 0;
+
+}
+
+.button:hover {
+    scale: 1.03;
+}
+
+#addButton {
+    cursor: pointer;
+}
+#buttonForm{
+    cursor: pointer;
+}
+
+#inputModif {
+    height : 52;
+}
